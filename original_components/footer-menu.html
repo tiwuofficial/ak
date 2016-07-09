@@ -1,0 +1,40 @@
+<dom-module id="footer-menu">
+    <style>
+    :host {
+        display: block;
+        width: 100%;
+        height: 40px;
+        z-index: 4;
+        text-align: center;
+    }
+    
+    :host header {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    :host a {
+        text-decoration: none;
+        color: black;
+        line-height: 20px;
+        font-size: 1.5rem;
+        padding-left: 10px;
+        margin-right: 40px;
+    }
+    </style>
+    <template>
+        <footer>
+            <a href="javascript:void(0)">Top</a>
+            <a href="javascript:void(0)">About</a>
+            <a href="javascript:void(0)">Portrait</a>
+            <a href="javascript:void(0)">Portrait</a>
+            <a href="javascript:void(0)">Contact</a>
+        </footer>
+    </template>
+</dom-module>
+<script>
+Polymer({
+    is: 'footer-menu',
+});
+</script>
